@@ -8,4 +8,32 @@ cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
 即可使用
 
-![alt](https://github.com/closeJ/webpackex/webpp.png)
+`C:\piyan (master) (piyan@1.0.0)
+λ npm run watch
+
+> piyan@1.0.0 watch C:\piyan
+> webpack --mode development --watch
+
+
+webpack is watching the files…
+
+Hash: 03f84e23ed9d92b362a0
+Version: webpack 4.42.0
+Time: 3527ms
+Built at: 2020-03-12 23:35:50
+                              Asset      Size   Chunks             Chunk Names
+               ./js/index.bundle.js  2.94 KiB    index  [emitted]  index
+                ./js/page.bundle.js  3.71 KiB     page  [emitted]  page
+             ./js/runtime.bundle.js  6.12 KiB  runtime  [emitted]  runtime
+              ./js/vendor.bundle.js  3.71 KiB   vendor  [emitted]  vendor
+images/pc_wallaper_1920x1080_v1.jpg   178 KiB           [emitted]
+images/pc_wallaper_1920x1080_v2.jpg   244 KiB           [emitted]
+Entrypoint index = ./js/runtime.bundle.js ./js/index.bundle.js
+Entrypoint page = ./js/runtime.bundle.js ./js/page.bundle.js
+Entrypoint vendor = ./js/runtime.bundle.js ./js/vendor.bundle.js
+[./assets/images sync recursive ^\.\/.*$] ./assets/images sync ^\.\/.*$ 230 bytes {index} {page} {vendor} [built]
+[./assets/images/pc_wallaper_1920x1080_v1.jpg] 148 bytes {index} {page} {vendor} [optional] [built]
+[./assets/images/pc_wallaper_1920x1080_v2.jpg] 148 bytes {index} {page} {vendor} [optional] [built]
+[./assets/index.js] 86 bytes {index} {page} {vendor} [built]
+[./assets/page.js] 67 bytes {page} {vendor} [built]
+[./assets/vendor.js] 46 bytes {vendor} {page} [built]`
