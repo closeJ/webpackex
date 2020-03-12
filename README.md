@@ -1,4 +1,7 @@
 # webpack 打包工具使用
+
+主程式 : webpack.config.js
+
 1. 將 `sass` 轉換 `css` - 使用 `sass-loader` 、 `css-loader` 、 `mini-css-extract-plugin` 、 `postcss-loader` (瀏覽器支援) npm套件
 2. `javascript es6` 轉換成 `es5` 支援一些較舊的瀏覽器 - 使用 `babel-loader` npm 套件
 3. 壓縮超過 1mb 的圖片 - `url-loader` 、 `file-loader` 、 `image-webpack-loader` npm 套件
