@@ -7,3 +7,5 @@
 cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
 即可使用
+
+![alt](https://github.com/closeJ/webpackex/webpp.png)
