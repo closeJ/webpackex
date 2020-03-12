@@ -11,6 +11,8 @@ cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
 即可使用
 
+如下圖 在命令提示字元的樣子
+
 ```
 λ npm run watch
 
@@ -43,5 +45,5 @@ Entrypoint vendor = ./js/runtime.bundle.js ./js/vendor.bundle.js
 
 ```
 
-然後到本機資料夾 `/dist/` 可以看到壓縮後的圖片、js 、css 檔案
+然後到本機資料夾 `/dist/` 就可以看到壓縮後的圖片、js 、css 檔案
 
