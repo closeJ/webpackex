@@ -4,6 +4,8 @@
 3. 壓縮超過 1mb 的圖片 - `url-loader` 、 `file-loader` 、 `image-webpack-loader` npm 套件
 4. 清空編譯後的資料夾 `/dist/` - `clean-webpack-plugin` npm 套件
 5. 用 webpack 內建功能 `splitChunks` 來合併重複的js檔案
+<hr>
+
 打開命令提示字元<br>
 cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
