@@ -8,7 +8,7 @@ cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
 即可使用
 
-      C:\piyan (master) (piyan@1.0.0)
+```
 λ npm run watch
 
 > piyan@1.0.0 watch C:\piyan
@@ -36,4 +36,6 @@ Entrypoint vendor = ./js/runtime.bundle.js ./js/vendor.bundle.js
 [./assets/images/pc_wallaper_1920x1080_v2.jpg] 148 bytes {index} {page} {vendor} [optional] [built]
 [./assets/index.js] 86 bytes {index} {page} {vendor} [built]
 [./assets/page.js] 67 bytes {page} {vendor} [built]
-[./assets/vendor.js] 46 bytes {vendor} {page} [built]     
+[./assets/vendor.js] 46 bytes {vendor} {page} [built]
+
+```
