@@ -2,7 +2,8 @@
 1. 將 `sass` 轉換 `css` - 使用 `sass-loader` 、 `css-loader` 、 `mini-css-extract-plugin` 、 `postcss-loader` (瀏覽器支援) npm套件
 2. `javascript es6` 轉換成 `es5` 支援一些較舊的瀏覽器 - 使用 `babel-loader` npm 套件
 3. 壓縮超過 1mb 的圖片 - `url-loader` 、 `file-loader` 、 `image-webpack-loader` npm 套件
-
+4. 清空編譯後的資料夾 `/dist/` - `clean-webpack-plugin` npm 套件
+5. 用 webpack 內建功能 `splitChunks` 來合併重複的js檔案
 打開命令提示字元<br>
 cd 本專案放到本機的路徑<br>
 輸入 `npm run watch` <br>
@@ -39,3 +40,6 @@ Entrypoint vendor = ./js/runtime.bundle.js ./js/vendor.bundle.js
 [./assets/vendor.js] 46 bytes {vendor} {page} [built]
 
 ```
+
+然後到本機資料夾 `/dist/` 可以看到壓縮後的圖片、js 、css 檔案
+
